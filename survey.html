@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">
+          <span class="title-word title-word-1">Fill</span>
+          <span class="title-word title-word-2">this</span>
+          <span class="title-word title-word-3">survey</span>
+        </h2>
+      </div>
+              <form id="form">
+
+            <div class="form">
+                <label for="name" id="label-name">Name:</label>
+                <!-- name input -->
+                <input type="text" id="name" placeholder="Enter your name" />
+            </div>
+            
+            <div class="form">
+                <label for="age" id="label-age">Age:</label>
+                <!-- input for age -->
+                <input type="text" name="age" id="age" placeholder="Enter your age"/>
+            </div>
+            
+            <div class="form">
+                <label>Your Gender:</label>
+                 <!-- input for gender -->
+                 <label for="male"><input type="radio" id="male" name="options">Male</input>
+                </label>
+                 <label for="female"><input type="radio" id="female" name="options">Female</input>
+                </label>
+                 <label for="other"><input type="radio" id="other" name="options">Other</input>
+                 </label>
+            </div>
+            
+            <div class="form">
+                <label for="email" id="label-email">Email:</label>
+                <!-- input for email -->
+                <input type="text" name="email" id="email" placeholder="Enter your email" />
+            </div>
+
+            <div class="form">
+                <label for="role" id="label-role">Your Role:</label>
+                <!-- dropdown menu -->
+                <select name="role" id="role">
+                    <option value="">Select one option</option>
+                    <option value="student">Student</option>
+                    <option value="Intern">Intern</option>
+                    <option value="Experienced">Experienced</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div> 
+            <div class="form">
+                <label>
+                    Languages you've learned
+                    <small>(check them)</small> 
+                </label>
+                <!-- input for languages -->
+                <label for="inp-1"><input type="checkbox" name="inp">C</input></label>
+                <label for="inp-2"><input type="checkbox" name="inp">C++</input></label>
+                <label for="inp-3"><input type="checkbox" name="inp">C#</input></label>
+                <label for="inp-4"><input type="checkbox" name="inp">Java</input></label>
+                <label for="inp-5"><input type="checkbox" name="inp">Python</input></label>
+                <label for="inp-6"><input type="checkbox" name="inp">Javascript</input></label>
+                <label for="inp-7"><input type="checkbox" name="inp">React</input></label>
+                <label for="inp-8"><input type="checkbox" name="inp">Angular</input></label>
+                <label for="inp-9"><input type="checkbox" name="inp">Django</input></label>
+                <label for="inp-10"><input type="checkbox" name="inp">Spring</input></label>
+            </div>
+            <div class="form">
+                <label for="comments">Any suggestion?</label>
+                <textarea name="comments" id="comments" placeholder="Enter your comments here"></textarea>
+            </div>
+            <div class="form">
+              <a href="#" target="_blank"><input type="button" value="Submit"></input></a>
+            </div>            
+        </form>
+</body>
+</html>
