@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #4e3b63;
+    font-family: "Product sans", sans-serif;
+    color:#ffffff;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+.box{
+    height: 50%;
+    font-weight: 50%;
+    background:linear-gradient(270deg,#f5b5e9,#cb8fd8);
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 30px 10px;
+    box-shadow: 2px 5px 10px rgb(0,0,0,0.5);
+    margin-bottom: 12px;
+    border-radius: 15px;
+}
